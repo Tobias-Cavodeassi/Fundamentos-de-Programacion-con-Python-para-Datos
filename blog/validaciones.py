@@ -6,8 +6,7 @@ from blog.datos import estados_post
 # Claves que todo post debe tener obligatoriamente
 CLAVES_OBLIGATORIAS = ("id", "titulo", "contenido", "autor", "tags", "estado")
 
-
-# --- Revisa que un post cumpla las reglas. Retorna una tupla (True/False, mensaje) ---
+# --- Revisa que un post (en forma de diccionario) cumpla las reglas. Retorna (True/False, mensaje) ---
 def validar_post(post):
     # El post debe ser un diccionario
     if not isinstance(post, dict):
@@ -41,15 +40,3 @@ def validar_post(post):
         return False, f'el "estado" no es válido (debe ser uno de {estados_post})'
 
     return True, "válido"
-
-
-# --- Opción 4: recorre todos los posts y muestra cuáles son válidos y cuáles no ---
-def validar_todos(lista):
-    print("\nResultado de la validación:")
-    # enumerate numera los posts empezando en 1
-    for numero, post in enumerate(lista, start=1):
-        es_valido, mensaje = validar_post(post)
-        if es_valido:
-            print(f"Post {numero}: válido")
-        else:
-            print(f"Post {numero}: error - {mensaje}")

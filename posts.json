@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "titulo": "Primer post del blog",
+        "contenido": "Este es el contenido del primer post del blog.",
+        "autor": {
+            "nombre": "Tobías Cavodeassi",
+            "bio": "Desarrollador de software con experiencia en Python y Django.",
+            "especialidad": "Desarrollo Web",
+            "redes_sociales": [
+                "https://twitter.com/tobiascavodeassi",
+                "https://www.linkedin.com/in/tobiascavodeassi/"
+            ]
+        },
+        "tags": [
+            "Python",
+            "Desarrollo Web"
+        ],
+        "estado": "publicado"
+    },
+    {
+        "id": 2,
+        "titulo": "Segundo post del blog",
+        "contenido": "Este es el contenido del segundo post del blog.",
+        "autor": {
+            "nombre": "Tobías Cavodeassi",
+            "bio": "Desarrollador de software con experiencia en Python y Django.",
+            "especialidad": "Desarrollo Web",
+            "redes_sociales": [
+                "https://twitter.com/tobiascavodeassi",
+                "https://www.linkedin.com/in/tobiascavodeassi/"
+            ]
+        },
+        "tags": [
+            "Data Science",
+            "Noticias"
+        ],
+        "estado": "borrador"
+    },
+    {
+        "id": 3,
+        "titulo": "Tercer post del blog",
+        "contenido": "Este es el contenido del tercer post del blog.",
+        "autor": {
+            "nombre": "Tobías Cavodeassi",
+            "bio": "Desarrollador de software con experiencia en Python y Django.",
+            "especialidad": "Desarrollo Web",
+            "redes_sociales": [
+                "https://twitter.com/tobiascavodeassi",
+                "https://www.linkedin.com/in/tobiascavodeassi/"
+            ]
+        },
+        "tags": [
+            "Django",
+            "Opinión"
+        ],
+        "estado": "archivado"
+    },
+    {
+        "id": 4,
+        "titulo": "Cuarto post, probando sistema de creación y guardado en JSON",
+        "contenido": "Este es el contenido del cuarto post",
+        "autor": {
+            "nombre": "Tobías Cavodeassi",
+            "bio": "Desarrollador de software con experiencia en Python y Django.",
+            "especialidad": "Desarrollo Web",
+            "redes_sociales": [
+                "https://twitter.com/tobiascavodeassi",
+                "https://www.linkedin.com/in/tobiascavodeassi/"
+            ]
+        },
+        "tags": [
+            "JSON",
+            "Data Analyst"
+        ],
+        "estado": "archivado"
+    }
+]
